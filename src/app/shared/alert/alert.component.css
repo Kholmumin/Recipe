@@ -1,0 +1,41 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 50;
+}
+
+.alert-box {
+  position: fixed;
+  top: 30vh;
+  left: 20vw;
+  width: 60vw;
+  padding: 16px;
+  z-index: 100;
+  background-color: white;
+  box-shadow: 0, 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.alert-box-actions {
+  font-size: 22px;
+
+  text-align: center;
+}
+
+.alert-text {
+  background-image: linear-gradient(
+    40deg,
+    hsl(300deg 100% 13%) 0%,
+    hsl(315deg 100% 20%) 29%,
+    hsl(324deg 100% 26%) 45%,
+    hsl(335deg 82% 35%) 54%,
+    hsl(346deg 67% 45%) 61%,
+    hsl(358deg 67% 55%) 73%,
+    hsl(11deg 84% 58%) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
